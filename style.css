@@ -25,6 +25,6 @@ h2 {
 @media (max-width: 576px) {
     #description h2,
     #description p {
-        text-align: center;
+        text-align: center !important;
     }
 }
