@@ -53,3 +53,7 @@ a.btn-primary:focus {
     outline: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
 }
+
+a {
+    text-decoration: none!important;
+}
