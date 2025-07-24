@@ -57,3 +57,21 @@ a.btn-primary:focus {
 a {
     text-decoration: none!important;
 }
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 0 24px;
+}
+
+.painting-card {
+    padding-bottom: 14px;
+}
+
+@media (max-width: 576px) {
+    .card-container {
+        padding: 0 12px;
+    }
+}
