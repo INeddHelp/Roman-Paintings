@@ -28,23 +28,28 @@ h2 {
     }
 }
 
-a.btn.btn-primary,
-a.btn.btn-primary:hover,
-a.btn.btn-primary:focus,
-a.btn.btn-primary:active {
-    background-color: #7c2f2f !important;
-    color: #fff !important;
-    border: none !important;
+a.btn-primary {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0.5em 1.1em;
+    background-color: #7c2f2f;
+    color: #fff;
+    border: none;
+    border-radius: 0.5em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
     transition: background-color 0.3s, transform 0.2s;
 }
 
-a.btn.btn-primary:hover,
-a.btn.btn-primary:focus,
-a.btn.btn-primary:active {
-    background-color: #bfa76a !important;
-    color: #3d2a14 !important;
+a.btn-primary:hover {
+    background-color: #bfa76a;
     transform: scale(1.03);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
-    outline: none !important;
+}
+
+a.btn-primary:active,
+a.btn-primary:focus {
+    background-color: #bfa76a !important; /* Same as hover */
+    color: #3d2a14 !important;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
 }
