@@ -79,6 +79,10 @@ a {
     }
 }
 
-#img_painting_id:hover {
+#img_painting_id {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12); /* TODO: make it gradual */
+}
+
+p > span {
+    font-weight: bold;
 }
