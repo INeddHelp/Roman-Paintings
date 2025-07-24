@@ -18,8 +18,8 @@ body {
 }
 
 h2 {
-    font-weight: bold;
-    font-size: 1.7em;
+    font-weight: bolder!important;
+    font-size: 1.7em!important;
 }
 
 @media (max-width: 576px) {
