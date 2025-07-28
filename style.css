@@ -77,6 +77,12 @@ a {
     .card-container {
         padding: 0 12px;
     }
+    .featurette-divider {
+        display: none;
+    }
+    #painting_description {
+        align-content: center;
+    }
 }
 
 #img_painting_id {
@@ -85,10 +91,4 @@ a {
 
 p > span {
     font-weight: bold;
-}
-
-@media (max-width: 576px) {
-    .featurette-divider {
-        display: none;
-    }
 }
