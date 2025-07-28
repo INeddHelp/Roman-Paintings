@@ -29,6 +29,19 @@ h2 {
     .mobile-center {
         text-align: center!important;
     }
+    .card-container {
+        padding: 0 12px;
+    }
+    .featurette-divider {
+        display: none;
+    }
+    #painting_description {
+        text-align: center;
+    }
+    p > .lead {
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
 }
 
 a.btn-primary {
@@ -71,18 +84,6 @@ a {
 
 .painting-card {
     padding-bottom: 14px;
-}
-
-@media (max-width: 576px) {
-    .card-container {
-        padding: 0 12px;
-    }
-    .featurette-divider {
-        display: none;
-    }
-    #painting_description {
-        text-align: center;
-    }
 }
 
 #img_painting_id {
