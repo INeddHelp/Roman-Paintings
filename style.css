@@ -81,7 +81,7 @@ a {
         display: none;
     }
     #painting_description {
-        align-content: center;
+        text-align: center;
     }
 }
 
