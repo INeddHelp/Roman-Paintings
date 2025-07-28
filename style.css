@@ -86,3 +86,9 @@ a {
 p > span {
     font-weight: bold;
 }
+
+@media (max-width: 576px) {
+    .featurette-divider {
+        display: none;
+    }
+}
