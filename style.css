@@ -44,7 +44,7 @@ h2 {
     }
 
     .citation {
-        font-weight: normal;
+        font-weight: normal!important;
     }
 }
 
