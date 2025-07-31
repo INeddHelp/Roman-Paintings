@@ -42,7 +42,8 @@ h2 {
         padding-left: 0!important;
         padding-right: 0!important;
     }
-    blockquote > p > .citation {
+    .second-quote {
+        padding-top: 6px;
         padding-bottom: 12px;
         text-align: center;
     }
