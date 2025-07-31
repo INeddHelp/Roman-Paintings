@@ -11,11 +11,6 @@ body {
     font-style: italic;
 }
 
-.citation-source {
-    font-size: 0.9em;
-    color: #555;
-}
-
 body {
     background-color: #f8f5ec;
 }
@@ -43,9 +38,13 @@ h2 {
         padding-right: 0!important;
     }
     .second-quote {
-        padding-top: 6px;
-        padding-bottom: 12px;
-        text-align: center;
+        padding-top: 6px!important;
+        padding-bottom: 12px!important;
+        text-align: center!important;
+    }
+
+    .citation {
+        font-weight: normal;
     }
 }
 
