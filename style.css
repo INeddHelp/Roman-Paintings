@@ -114,6 +114,10 @@ p > span {
 }
 
 .custom-divider {
-    margin: 2rem 0;
+    margin: 1rem 0;
     gap: 8px;
+}
+
+#custom-hr-container {
+    padding: 0;
 }
