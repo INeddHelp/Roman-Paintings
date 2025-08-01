@@ -56,6 +56,10 @@ h2 {
     .divider-excess {
         display: none!important;
     }
+    .divider-img {
+        width: 70px!important;
+        height: auto!important;
+    }
 }
 
 a.btn-primary {
@@ -111,8 +115,4 @@ p > span {
 .custom-divider {
     margin: 2rem 0;
     gap: 8px;
-}
-
-.divider-img {
-    width: auto;
 }
