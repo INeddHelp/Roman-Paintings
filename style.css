@@ -56,10 +56,6 @@ h2 {
     .divider-excess {
         display: none!important;
     }
-    .divider-img {
-        width: 50px!important;
-        height: auto!important;
-    }
 }
 
 a.btn-primary {
