@@ -50,6 +50,16 @@ h2 {
     .hr-mobile {
         display: block!important;
     }
+    .custom-divider {
+        padding: 3rem 0;
+    }
+    .divider-excess {
+        display: none;
+    }
+    .divider-img {
+        width: 75%;
+        height: 75%;
+    }
 }
 
 a.btn-primary {
