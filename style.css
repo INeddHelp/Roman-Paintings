@@ -47,6 +47,9 @@ h2 {
     .citation {
         font-weight: normal!important;
     }
+    #hr-mobile {
+        display: block!important;
+    }
 }
 
 a.btn-primary {
