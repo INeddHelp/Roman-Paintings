@@ -101,3 +101,12 @@ a {
 p > span {
     font-weight: bold;
 }
+
+.custom-divider {
+    margin: 2rem 0;
+    gap: 8px;
+}
+
+.divider-img {
+    width: auto;
+}
